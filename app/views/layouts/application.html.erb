@@ -12,9 +12,9 @@
   </head>
 
   <body>
-    <div class="container">
-      <%= yield %>
-    </div>
+    <%= render 'components/navbar' %>
+    <%= yield %>
+    <%= render 'components/footer' %>
 
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
     <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
