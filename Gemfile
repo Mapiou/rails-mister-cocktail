@@ -9,11 +9,14 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 
-# In order to hide keys
+# To hide keys
 gem 'dotenv-rails', groups: [:development, :test]
 
 # To upload external pictures by users
 gem 'cloudinary', '~> 1.9.1'
+
+# To upload files associated to Models
+gem 'carrierwave', '~> 1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
