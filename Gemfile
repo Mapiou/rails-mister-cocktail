@@ -12,6 +12,9 @@ gem 'simple_form'
 # In order to hide keys
 gem 'dotenv-rails', groups: [:development, :test]
 
+# To upload external pictures by users
+gem 'cloudinary', '~> 1.9.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
